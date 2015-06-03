@@ -1,6 +1,6 @@
 #include "include/my_stack.h"
 #include "stdio.h"
-int stack[5];//初始化空栈
+int stack[1000];//初始化空栈
 int top=0;	//栈顶
 int end=0;	//栈底
 
@@ -18,7 +18,7 @@ int stack_pop()
 
 int stack_capacity()
 {
-	return 5;
+	return 1000;
 }
 
 int stack_size()
@@ -36,7 +36,7 @@ int stack_is_empty()
 
 int stack_is_full()
 {
-	if(top==5)
+	if(top==1000)
 		return 1;
 	else
 		return 0;

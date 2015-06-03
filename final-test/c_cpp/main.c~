@@ -10,7 +10,7 @@ int main(void) {
 		stack_push(x);
 	}
 	
-	printf("栈满，下面将输出栈里面的内容\n");
+
 	while ( !stack_is_empty() ) {
 		x = stack_pop();
 
